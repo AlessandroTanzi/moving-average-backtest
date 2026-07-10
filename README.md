@@ -54,9 +54,9 @@ Trading rule:
 moving-average-backtest/
 │
 ├── data/
+├── images/
 ├── notebook/
 ├── src/
-├── images/
 ├── README.md
 ├── requirements.txt
 └── .gitignore

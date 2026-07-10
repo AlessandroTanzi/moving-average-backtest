@@ -57,6 +57,6 @@ moving-average-backtest/
 ├── images/
 ├── notebook/
 ├── src/
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt

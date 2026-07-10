@@ -60,3 +60,50 @@ moving-average-backtest/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+## Results
+
+The project backtests a moving average crossover strategy on SPY using:
+
+- 50-day Simple Moving Average
+- 200-day Simple Moving Average
+
+The strategy is compared against a passive buy-and-hold benchmark.
+
+The main metrics computed are:
+
+- Strategy Annual Return
+- Strategy Annual Volatility
+- Strategy Sharpe Ratio
+- Strategy Maximum Drawdown
+- Buy & Hold Annual Return
+- Buy & Hold Annual Volatility
+- Buy & Hold Sharpe Ratio
+
+The final results are saved in:
+
+```text
+data/strategy_summary.csv
+```
+
+## Visualizations
+
+The project generates three main charts:
+
+```text
+images/moving_average_signals.png
+images/strategy_vs_buy_hold.png
+images/strategy_drawdown.png
+```
+
+### SPY Price with Moving Averages
+
+![SPY Price with Moving Averages](images/moving_average_signals.png)
+
+### Strategy vs Buy & Hold
+
+![Strategy vs Buy & Hold](images/strategy_vs_buy_hold.png)
+
+### Strategy Drawdown
+
+![Strategy Drawdown](images/strategy_drawdown.png)
